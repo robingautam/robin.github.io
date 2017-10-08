@@ -1,0 +1,453 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url(pic/pic11.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px 500px;
+}
+#rob {
+	width: 100%;
+	background-color: black;
+	height: 70px;
+	opacity: 0.8;
+    position: fixed;
+    z-index: 4;
+    display: none;
+}
+
+#rob ul li {
+	float: left;
+	width: 90px;
+	height: 20px;
+	color: white;
+	background-color: black;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-left: 3px;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+}
+#rob ul li a {
+	text-decoration: none;
+	color: rgb(250,250,250);
+	font-size: 17px;
+	width: 70px;
+}
+#rob ul li a:hover {
+	text-decoration: underline;
+	text-decoration-color: white;
+	color: rgb(200,200,200);
+}
+ul ul {
+        position: absolute;
+        display: none;
+        background-color: black;
+        opacity: 0.9;
+        width: 200px;
+    }
+    
+    ul li:hover>ul {
+        display: block;
+    }
+  #rob ul ul li {
+    	text-align: center;
+    	height: 25px;
+    	cursor: pointer;
+    	width: 195px;
+    }
+h1 {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 250px;
+}
+h2 {
+	color: black;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: burlywood;
+}
+#menu1 {
+    float: right;
+    width: 550px;
+    height: 200px;
+    margin-right: 80px;
+    background-color: rgb(245,245,245);
+    box-shadow: 10px 10px 20px rgb(100,100,100);
+    display: none;
+}
+#menu2 {
+    width: 600px;
+    height: 200px;
+    margin-left: 80px; 
+    background-color: rgb(245,245,245);
+    box-shadow: 10px 10px 20px rgb(100,100,100);
+}
+#menu1:hover {
+    box-shadow: 10px 10px 30px rgb(80,80,80);
+}
+#menu2:hover {
+    box-shadow: 10px 10px 30px rgb(80,80,80);
+}
+#menu1 img {
+    width: 240px;
+    height: 200px;
+    float: right;
+}
+#menu2 img {
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+#menu1 p2 {
+    color: darkgoldenrod;
+    font-family: cursive;
+    padding-left: 120px;
+    font-size: 40px;
+    
+}
+#menu2 p5 {
+    color: darkgoldenrod;
+    font-family: cursive;
+    padding-left: 120px;
+    font-size: 40px;
+}
+#menu1 p3 {
+    color: black;
+    font-family:monospace;
+    padding-left: 140px;
+    font-size: 20px;
+}
+#menu2 p6 {
+    color: black;
+    font-family: monospace;
+    padding-left: 140px;
+    font-size: 20px;
+    
+}
+#menu1 p7 {
+    padding-left: 120px;
+    color: black;
+    font-family: serif;
+    font-size: 18px;
+}
+#menu1 p8 {
+    padding-left: 50px;
+    color: black;
+    font-family: serif;
+    font-size: 18px;
+}
+#menu2 p9 {
+   padding-left: 120px;
+    color: black;
+    font-family: serif;
+    font-size: 18px;
+}
+#menu2 p10 {
+   padding-left: 50px;
+    color: black;
+    font-family: serif; 
+    font-size: 18px;
+}
+#menu1 p11 a {
+    margin-left: 120px;
+    color: goldenrod;
+    font-size: 20px;
+    text-decoration: none;
+}
+#menu2 p12 a {
+    margin-left: 120px;
+    color: goldenrod;
+    font-size: 20px;
+    text-decoration: none;
+}
+#menu1 p11 a:hover {
+    text-decoration-style: double;
+    text-decoration-line: underline;
+    text-decoration-color: goldenrod;
+}
+#menu2 p12 a:hover {
+    text-decoration-style: double;
+    text-decoration-line: underline;
+    text-decoration-color: goldenrod;
+}
+    #outerbox {
+        overflow: hidden;
+        width: 1300px;
+        margin-left: 20px;
+    }
+    
+    #sliderbox {
+        position: relative;
+        width: 5200px;
+        animation-name: robin;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+    
+    #sliderbox img {
+        float: left;
+    }
+    
+    @keyframes robin {
+        0% {
+            left: 0px;
+        }
+        20% {
+            left: 0px;
+        }
+        25% {
+            left: -1300px;
+        }
+        45% {
+            left: -1300px;
+        }
+        50% {
+            left: -2600px;
+        }
+        55% {
+            left: -2600px;
+        }
+        75% {
+            left: -3900px;
+        }
+        95% {
+            left: -3900px;
+        }
+        100% {
+            left: -5200;
+        }
+}
+        #outerbox {
+            align-items: center
+        }
+#m1 {
+    width: 540px;
+    height: 120px;
+    box-shadow: 10px 10px 20px rgb(200,200,200);
+    float: right;
+    margin-right: 80px;
+    background-color: rgb(240,240,240);
+    text-align: center;
+}
+#m2 {
+    width: 540px;
+    height: 120px;
+    margin-left: 80px;
+    box-shadow: 10px 10px 20px rgb(200,200,200);
+    background-color: rgb(240,240,240);
+    text-align: center;
+}
+#m3 {
+    width: 540px;
+    height: 120px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 16px;
+    box-shadow: 10px 10px 20px rgb(200,200,200);
+    background-color: rgb(240,240,240);
+    text-align: center;
+}
+#m4 {
+    width: 540px;
+    height: 120px;
+    margin-left: 80px;
+    box-shadow: 10px 10px 20px rgb(200,200,200);
+    background-color: rgb(240,240,240);
+    text-align: center;
+}
+#m1 img {
+    width: 140px;
+    height: 120px;
+    border-radius: 60px;
+    float: left;
+}
+#m1:hover {
+    box-shadow: 10px 10px 20px rgb(150,150,150);
+}
+#m2:hover {
+    box-shadow: 10px 10px 20px rgb(150,150,150);
+}
+#m3:hover {
+    box-shadow: 10px 10px 20px rgb(150,150,150);
+}
+#m4:hover {
+    box-shadow: 10px 10px 20px rgb(150,150,150);
+}
+#m2  img {
+    width: 140px;
+    height: 120px;
+    border-radius: 60px;
+    float: left;
+}
+#m2 p13 {
+    color: goldenrod;
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 50px;
+}
+#m3 img {
+    width: 140px;
+    height: 120px;
+    border-radius: 60px;
+    float: left;
+}
+#m4 img {
+    width: 140px;
+    height: 120px;
+    border-radius: 60px;
+    float: left;
+}
+#m1 p14 {
+    color: goldenrod;
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 50px;
+}
+#m3 p15 {
+    color: goldenrod;
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 50px;
+}
+#m4 p16 {
+    color: goldenrod;
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 50px;
+}
+#image img {
+    width: 1300px;
+    height: 450px;
+    margin-left: 25px;
+}
+h3 {
+    margin-left: 75px;
+    color: darkgoldenrod;
+    font-size: 25px;
+    font-family: inherit;
+    text-decoration-color: darkgoldenrod;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+#image img:hover {
+    animation: scroll(1.4);
+    transition: 3s ease;
+    transform: scale(1.5);
+    
+}
+#rob1 {
+    width: 400px;
+    float: right;
+    height: 350px;
+    margin-right: 60px;
+    text-align: center;
+    background-color: rgb(245,245,245);
+    display: none;
+}
+#table {
+    width: 400px;
+    float: right;
+    height: 350px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: rgb(245,245,245);
+    display: none;
+}
+#rob2 {
+    width: 400px;
+    height: 350px;
+    margin-left: 45px;
+    text-align: center;
+    background-color: rgb(245,245,245);
+    display: none;
+}
+#table p17 {
+    color: gold;
+    font-size: 25px;
+    font-family: inherit;
+    width: 100px;
+}
+input {
+    width: 300px;
+    height: 35px;
+    margin-top: 10px;
+}
+#footer {
+   width: 100%;
+    height: 200px;
+    background-color: black;
+    opacity: 0.7;
+}
+#rob1 p18 {
+    color: goldenrod;
+    font-size: 25px;
+    font-family: cursive;
+}
+#rob1 p19 {
+    color: black;
+    font-family: inherit;
+    font-size: 27px;
+    
+}
+#rob1 p20 {
+    font-size: 22px;
+    margin-top: 2px;
+}
+#rob2 p21 {
+    color: goldenrod;
+    font-size: 25px;
+    font-family: cursive;
+}
+#rob2 p22 {
+    color: black;
+    font-family: inherit;
+    font-size: 27px;
+    
+}
+#rob2 p23 {
+    font-size: 22px;
+    margin-top: 2px;
+}
+#footer p27 {
+    font-size: 25px;
+    font-family: inherit;
+    color: white;
+    margin-left: 540px;
+}
+#footer p28 {
+    font-family: cursive;
+    color: goldenrod;
+    font-size: 35px;
+    margin-left: 550px;
+    
+}
+#footer p29 {
+    margin-left: 550px;
+    color: darkgoldenrod;
+    font-size: 20px;
+    
+}
+#footer p30 {
+    margin-left: 550px;
+    color: white;
+    font-size: 15px;
+}
+#footer p31 {
+    margin-left: 550px;
+    color: white;
+    font-size: 15px;
+}
+#
+    
+    
+    
+    
+    
+    
+    
